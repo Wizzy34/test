@@ -1,0 +1,12 @@
+name = "lovable-landing-page"
+type = "javascript"
+account_id = "5324381f88a7621a7e2b0ac7d63560ab"
+main = "src/worker.ts"
+workers_dev = true
+
+[build]
+command = "npm run build"
+cwd = "./"
+
+[build.upload]
+format = "service-worker"
